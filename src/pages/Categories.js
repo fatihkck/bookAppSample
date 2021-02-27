@@ -6,7 +6,7 @@ import {Header} from '../components';
 function Categories() {
   return (
     <SafeAreaView>
-      <StatusBar barStyle={'dark-content'} backgroundColor={colors.primary} />
+      <StatusBar barStyle={'light-content'} backgroundColor={colors.primary} />
       <Header title="Kategori"></Header>
     </SafeAreaView>
   );
