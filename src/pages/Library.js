@@ -3,11 +3,13 @@ import {View, Text, StyleSheet, StatusBar, SafeAreaView} from 'react-native';
 import {colors, fonts} from '../consts';
 import {Header} from '../components';
 
-function Library() {
+function Library({navigation}) {
   return (
     <SafeAreaView>
-      <StatusBar barStyle={'light-content'} backgroundColor={colors.primary} />
-      <Header title="Kütüphane"></Header>
+      <Header title="Kütüphane" navigation={navigation}></Header>
+      <View>
+        <Text>Kütüphane</Text>
+      </View>
     </SafeAreaView>
   );
 }

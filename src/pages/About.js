@@ -3,15 +3,15 @@ import {View, Text, StyleSheet, StatusBar, SafeAreaView} from 'react-native';
 import {colors, fonts} from '../consts';
 import {Header} from '../components';
 
-function Categories({navigation}) {
+function About({navigation}) {
   return (
     <SafeAreaView>
-      <Header title="Kategoriler" navigation={navigation}></Header>
+      <Header title="Hakkında" navigation={navigation}></Header>
       <View>
-        <Text>Kategori</Text>
+        <Text>Hakkında</Text>
       </View>
     </SafeAreaView>
   );
 }
 
-export default Categories;
+export default About;
